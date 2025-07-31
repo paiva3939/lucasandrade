@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Web Designer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #0f172a, #1e293b);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      color: #94a3b8;
+    }
+    nav {
+      background: #1e293b;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      padding: 15px;
+      display: inline-block;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: #334155;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+    .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      text-align: center;
+      background: #0f172a;
+      color: white;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #1d4ed8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rodrigo Paiva
+    <p>Web Designer & Desenvolvedor Front-End</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#portfolio">Portfólio</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Sou um Web Designer apaixonado por criar interfaces modernas, responsivas e focadas em experiência do usuário. 
+    Transformo ideias em sites bonitos e funcionais, combinando design e desenvolvimento front-end.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfólio</h2>
+    <div class="portfolio">
+      <div class="card">
+        <h3>Site de Agência Digital</h3>
+        <p>Landing page moderna para startups e empresas de marketing.</p>
+      </div>
+      <div class="card">
+        <h3>Loja Virtual Responsiva</h3>
+        <p>Desenvolvimento de e-commerce otimizado para dispositivos móveis.</p>
+      </div>
+      <div class="card">
+        <h3>Portfólio Criativo</h3>
+        <p>Site pessoal com design inovador para apresentação de projetos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>📧 Email: rodrigopaiva3131@gmail.com
+    <p>📞 WhatsApp: (11) 99174-7357</p>
+    <a href="https://wa.me/5511991747357" target="_blank" class="btn">Fale Comigo no WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Lucas Andrade - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
